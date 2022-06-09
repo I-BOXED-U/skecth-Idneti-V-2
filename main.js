@@ -1,5 +1,5 @@
 function setup() {
-    canvas = createCanvas(480, 480);
+    canvas = createCanvas(360, 360);
     canvas.center();
     background("white");
     canvas.mouseReleased(classifyCanvas);
